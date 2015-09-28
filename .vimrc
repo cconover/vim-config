@@ -1,3 +1,22 @@
+"## Vundle
+set nocompatible
+filetype off
+
+"Set the runtime path and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+"### Plugin declarations must be below this line ###
+
+"Let Vundle manage Vundle
+Plugin 'VundleVim/Vundle.vim'
+
+"### All plugin declarations must end before this line ###
+
+"End Vundle processing
+call vundle#end()
+filetype plugin indent on
+
 "## Colors and Syntax
 :syntax enable "Enable syntax processing
 :colorscheme monokai "Editor color scheme
