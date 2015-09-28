@@ -1,14 +1,14 @@
 # Vim Configuration
-This repository keeps a customized Vim configuration for more efficient editing.
+This is my standard Vim configuration. It is extensible on a per-environment basis.
 
 ## Usage
-To use this configuration, clone the repo to your `.vim` directory:
+To use this configuration, clone the repo to your `.vim` directory.
 
 ```shell
 git clone git@github.com:cconover/vim-config.git ~/.vim
 ```
 
-The `.vimrc` file is contained inside this directory, but Vim will look for it in your home directory. To make this work, we need to symlink to the one inside the `.vim` directory:
+Vim uses a file called `.vimrc` stored in your home directory for persistent configuration. Since `.vimrc` is inside the `.vim` directory when using this repo, we need to symlink it so that Vim can find it.
 
 ```shell
 ln -s ~/.vim/.vimrc ~/.vimrc
