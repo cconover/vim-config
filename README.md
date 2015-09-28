@@ -13,3 +13,8 @@ The `.vimrc` file is contained inside this directory, but Vim will look for it i
 ```shell
 ln -s ~/.vim/.vimrc ~/.vimrc
 ```
+
+**Note:** If you already have a `.vimrc` file, you should rename it to something else (such as `.vimrc.bak`) before creating the symlink.
+
+### Local Configuration
+You may need to modify or extend the configuration contained in this repo for your local environment. Not a problem! Create a `.vimrc.local` file in your home directory and put your configuration rules in there. Our `.vimrc` will include that file and apply your configuration rules.
