@@ -17,3 +17,11 @@
 "## Searching
 :set incsearch "Search as characters are entered
 :set hlsearch "Highlight matches
+
+"## Local Configuration
+"## To allow for user and environment specific configuration beyond what is
+"## handled by the repository, custom configuration can be placed in the
+"## .vimrc.local file in your home directory, and it will be ignored by Git.
+if filereadable(glob("~/.vimrc.local"))
+    source ~/.vimrc.local
+endif
