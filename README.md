@@ -5,7 +5,7 @@ This repository keeps a customized Vim configuration for more efficient editing.
 To use this configuration, clone the repo to your `.vim` directory:
 
 ```shell
-git clone git@git.cconover.com:cconover/vim-config.git ~/.vim
+git clone git@github.com:cconover/vim-config.git ~/.vim
 ```
 
 The `.vimrc` file is contained inside this directory, but Vim will look for it in your home directory. To make this work, we need to symlink to the one inside the `.vim` directory:
